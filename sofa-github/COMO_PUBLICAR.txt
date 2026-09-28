@@ -1,0 +1,42 @@
+COMO PUBLICAR NO GITHUB PAGES
+
+1. Crie uma conta em https://github.com/ (se ainda nao tiver).
+
+2. No GitHub, clique em + > New repository.
+   Nome sugerido: site-sofas
+   Pode deixar como Public.
+   Crie o repositorio.
+
+3. No seu computador, entre nesta pasta do projeto.
+   Coloque o arquivo index.html e style.css no repositorio.
+
+4. Crie uma pasta chamada images e coloque dentro dela:
+   - sofa_tango_retratl_semcx-1024x768.webp
+   - sofaUSB-1024x768.webp
+   - sof_cama_bau_multifuncional-1-1024x768.webp
+   - sof_living_fixo.webp
+   - logo.png (opcional, mas recomendado)
+
+5. Para pegar as imagens no WordPress/XAMPP, elas normalmente estao em:
+   C:\xampp\htdocs\wordpress\wp-content\uploads\2026\09\
+   Copie os arquivos para a pasta images do projeto.
+
+6. Envie os arquivos para o repositorio do GitHub.
+   Pela pagina do repositorio: Add file > Upload files.
+   Arraste index.html, style.css e a pasta images.
+   Clique em Commit changes.
+
+7. Ative o GitHub Pages:
+   Settings > Pages
+   Em Build and deployment, escolha:
+   Source: Deploy from a branch
+   Branch: main
+   Folder: / (root)
+   Salve.
+
+8. Depois de alguns instantes, o GitHub mostrara o endereco do site.
+   Normalmente sera:
+   https://SEUUSUARIO.github.io/site-sofas/
+
+IMPORTANTE:
+O localhost do WordPress nao funciona no GitHub. Por isso as imagens precisam estar dentro do repositorio (pasta images), em vez de usar URLs como http://localhost/wordpress/...
